@@ -1,9 +1,9 @@
 # StringArt
+
 Python String Art Generator that transforms an input image into a captivating string art representation. It uses image processing techniques and a greedy algorithm to simulate strings stretched between pins, recreating the image's outlines.
 
-This project was developed by Arshitha Rajkumar & Pushap Raj.
 
-Configuration Parameters
+## Configuration Parameters
 
 Key parameters can be adjusted in the `if __name__ == "__main__":` block of `string_art_generator.py`:
 
@@ -16,3 +16,7 @@ Key parameters can be adjusted in the `if __name__ == "__main__":` block of `str
 *   `TARGET_BLUR_SIGMA`: Sigma for the Gaussian blur applied to the inverted Canny edges. This helps create a softer target for the string art algorithm.
 *   `NUM_LINES`: The maximum number of lines (strings) the algorithm will attempt to draw.
 *   `LINE_STRENGTH`: A value typically between 0.0 and 1.0 that determines how much each line darkens the canvas. Smaller values result in fainter lines and potentially more lines being drawn.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
